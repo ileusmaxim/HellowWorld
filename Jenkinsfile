@@ -1,9 +1,9 @@
 pipeline {
   agent none
   stages {
-    stage('build') {
+    stage('') {
       steps {
-        git(poll: true, branch: 'master', url: 'https://github.com/ileusmaxim/HellowWorld.git')
+        sh 'echo "Ez pizy di4"'
       }
     }
   }
