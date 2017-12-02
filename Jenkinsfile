@@ -17,7 +17,7 @@ pipeline {
     }
     stage('gg') {
       steps {
-        git(url: 'https://github.com/ileusmaxim/HellowWorld.git', branch: 'master', poll: true)
+        sh 'pwd'
       }
     }
   }
