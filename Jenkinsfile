@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('di4') {
           steps {
-            echo 'fgfgfgfgfgfgfgfgfgfgfgfg'
+            node(label: 's1ffff')
           }
         }
         stage('klk') {
