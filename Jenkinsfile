@@ -5,7 +5,6 @@ pipeline {
       parallel {
         stage('di4') {
           steps {
-            sh 'echo "Ez pizy di4"'
             echo 'fgfgfgfgfgfgfgfgfgfgfgfg'
           }
         }
